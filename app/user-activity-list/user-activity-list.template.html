@@ -1,0 +1,13 @@
+<h1>User activity</h1>
+<table class="users">
+    <tr>
+        <th>Id</th>
+        <th>Date/Time</th>
+        <th>User Activity</th>
+    </tr>
+    <tr ng-repeat="activity in $ctrl.userActivity">
+        <td>{{activity.id}}</td>
+        <td>{{activity.date}}</td>
+        <td>{{activity.activity}}</td>
+    </tr>
+</table>
