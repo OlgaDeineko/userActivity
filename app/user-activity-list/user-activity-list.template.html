@@ -4,6 +4,7 @@
         <th>Id</th>
         <th>Date/Time</th>
         <th>User Activity</th>
+        <th><button ng-click="$ctrl.deleteAllUserActivity()">Delete all user activity</button></th>
     </tr>
     <tr ng-repeat="activity in $ctrl.userActivity">
         <td>{{activity.id}}</td>

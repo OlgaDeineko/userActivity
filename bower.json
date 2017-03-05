@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.5.x"
+    "angular": "1.5.x",
+    "angulartics-google-analytics": "^0.4.0"
   }
 }

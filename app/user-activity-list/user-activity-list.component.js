@@ -8,5 +8,13 @@ angular.module('userActivityList', []).component('userActivityList', {
       self.userActivity = response.data;
     });
 
+    self.deleteAllUserActivity = function () {
+      user.deleteUserActivity();
+    }
+
+    //   .then(function (response) {
+    //   self.delet = response.data;
+    // });
+
   }]
 });
